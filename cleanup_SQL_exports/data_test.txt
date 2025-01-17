@@ -1,0 +1,11 @@
+("12929";"EPF");
+("12938";"École polytechnique universitaire de l''Université d''Aix-Marseille");
+("12939";"École polytechnique universitaire de l''Université d''Aix-Marseille");
+("12953";"Ecole spéciale militaire de Saint-Cyr (ESM)");
+("12960";"École supérieure de chimie organique et minérale (ESCOM) / Université de technologie de Compiègne (UTC) / Université d''Amiens");
+("12962";"Ecole supérieure de chimie, physique et électronique de Lyon / Université de Lyon");
+("12973";"École supérieure d''électronique de l''Ouest (ESEO)");
+("12989";"École supérieure des technologies industrielles avancées (ESTIA)");
+("13017";"École supérieure d''ingénieurs des travaux de la construction de Metz (ESITC)");
+("13019";"Ecole supérieure d''ingénieurs en électronique et électrotechnique (ESIEE) - Amiens");
+("13021";"Ecole supérieure d''ingénieurs en génie électrique (ESIGELEC)");

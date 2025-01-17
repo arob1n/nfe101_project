@@ -1,0 +1,4 @@
+kafka-server/*
+__pycache__/*
+.vscode/*
+*/__pycache__/*

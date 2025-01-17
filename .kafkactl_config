@@ -1,0 +1,37 @@
+contexts:
+  default:
+    brokers:
+      - localhost:9092
+    # optional: tls config
+    tls:
+      # set insecure to true to ignore all tls verification (defaults to false)
+      insecure: true
+
+
+    # optional: clientID config (defaults to kafkactl-{username})
+    clientID: my-client-id
+
+    # optional: kafkaVersion (defaults to 2.5.0)
+    kafkaVersion: 3.9.0
+
+    # optional: timeout for admin requests (defaults to 3s)
+    requestTimeout: 10s
+
+
+    producer:
+      # optional: changes the default partitioner
+      partitioner: "hash"
+
+      # optional: changes default required acks in produce request
+      # see: https://pkg.go.dev/github.com/IBM/sarama?utm_source=godoc#RequiredAcks
+      requiredAcks: "WaitForAll"
+
+      # optional: maximum permitted size of a message (defaults to 1000000)
+      maxMessageBytes: 1000000
+
+    consumer:
+      # optional: isolationLevel (defaults to ReadCommitted)
+      isolationLevel: ReadUncommitted
+
+# optional for project config files
+current-context: default
